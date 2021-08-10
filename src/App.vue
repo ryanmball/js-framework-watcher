@@ -1,7 +1,8 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Frameworks</router-link>
+      <router-link to="/">Raw Data</router-link> |
+      <router-link to="/charts">Charts</router-link>
     </div>
     <router-view />
   </div>
